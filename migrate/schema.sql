@@ -1,8 +1,8 @@
 -- schema.sql
 
 -- Create and use the database
-CREATE DATABASE IF NOT EXISTS jtdb;
-USE jtdb;
+-- CREATE DATABASE IF NOT EXISTS jtdb;
+-- USE jtdb;
 
 -- Applications Table
 CREATE TABLE IF NOT EXISTS applications (
