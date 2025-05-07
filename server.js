@@ -1,3 +1,7 @@
+// Create the db
+const runScript = require("./migrate/runSqlScript");
+runScript("db/script.sql");
+
 // server.js
 const express = require("express");
 const cors = require("cors");

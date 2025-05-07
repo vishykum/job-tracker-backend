@@ -17,5 +17,5 @@ async function runScript(filePath) {
 }
 
 // Change this path to your schema/seed file
-runScript("./schema.sql");
+module.exports = runScript;
 // Or runScript("db/seed.sql");
