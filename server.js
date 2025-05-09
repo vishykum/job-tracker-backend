@@ -8,7 +8,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(cors({
-    origin: "https://vishykum.github.io/job-tracker-frontend/",  // your Vite frontend dev server
+    origin: "https://vishykum.github.io",  // your Vite frontend dev server
     credentials: true
 }));
 app.use(express.json());
