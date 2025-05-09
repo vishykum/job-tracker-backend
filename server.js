@@ -7,7 +7,10 @@ const pool = require("./db"); // Your MySQL pool
 require("dotenv").config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: "http://localhost:5173",  // your Vite frontend dev server
+    credentials: true
+}));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
